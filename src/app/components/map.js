@@ -40,7 +40,7 @@ export default function LocationMap(){
   useEffect(() => {
      
         const googleMapScript = document.createElement('script');
-        googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCEi5FqflF4OurIhzaRywLYrX2qFfGuV1g&callback=initMap`;
+        googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key="API_KEY_GOES_HERE"&callback=initMap`;
         googleMapScript.async = true;
         googleMapScript.onload = () => {
           const map = 
