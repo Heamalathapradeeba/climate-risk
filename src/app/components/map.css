@@ -1,0 +1,14 @@
+.yearDropdown{
+   padding: 5px;
+   margin: 2px;
+   border: 3px solid brown;
+}
+
+.heading{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+}
+
+.yearSelector{
+    display: inline-flex;
+}
